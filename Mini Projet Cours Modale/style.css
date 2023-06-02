@@ -1,0 +1,195 @@
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    width: 100%;
+    background-color: #FFFFFF;
+  }
+
+  header nav img{
+    width: 75px;
+    height: 75px;
+    padding-left: 35px;
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+  }
+  
+  header nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  header nav ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  
+  header nav a{
+    padding: 1rem 2rem;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: #5F5F5F;
+    text-decoration: none;
+
+  }
+
+  header nav button{
+    width: 35px;
+    height: 25px;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
+  
+  header nav button::before, header nav button::after{
+    content: "";
+    height: 3px;
+    background-color: black;
+    width: 25px;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+  }
+  
+  header ul.active {
+    display: block;
+  }
+
+  
+main{
+    margin: auto;
+    max-width: 1500px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+  main h1{
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 56px;
+    font-size: 54px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  main h2{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    font-size: 36px;
+  }
+
+  main section p {
+    text-align: justify;
+    font-size: 18px;
+  }
+  .Livre{
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
+  main div img{
+    width: 425px;
+    height: 425px;
+  }
+.PartOne, .PartTwo, .PartThree{
+    display: flex;
+}
+
+footer{
+    box-shadow: 0px -1px 4px rgba(0, 0, 0, 0.2);
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+}
+span{
+    color: #AAAAAA;
+    text-align: center;
+ }
+ 
+footer img{
+
+    display: none;
+}
+
+footer:first-of-type p {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    color: black;
+
+}
+
+  
+  @media screen and (max-width : 1042px) {
+    header nav ul{
+      display: none;
+    }
+
+    main{
+        width: 90%;
+        margin: auto;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    header nav{
+      display: block;
+    }
+  
+    header nav button{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+  }
