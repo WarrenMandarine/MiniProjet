@@ -101,9 +101,53 @@ main{
     padding-right: 56px;
   }
 
+  .loupe{
+    width: 46px;
+  }
+
+/*-----Modale Affiche Livre -------*/
+
+  #voile{
+    background-color: gray;
+    opacity: 35%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #modale {
+    position: fixed;
+    background-color: #F0F0F0;
+    max-width: 792px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+    #imgModale{
+    max-width: 792px;
+    padding-bottom: 88px;
+    padding-top: 79px;
+}
+
+#croix {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 54px;
+    position: absolute;
+    left: 380px;
+    bottom: 840px;
+    right: 20px;
+    top: 23px;
+}
+
+    /*-----FIN Modale -------*/
+
+
   main div img{
-    width: 425px;
-    height: 425px;
+    max-width: 425px;
+   
   }
 .PartOne, .PartTwo, .PartThree{
     display: flex;
